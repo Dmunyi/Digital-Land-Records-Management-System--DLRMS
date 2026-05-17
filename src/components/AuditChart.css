@@ -1,0 +1,50 @@
+/* Styles for AuditChart component */
+.audit-chart {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  border: 1px solid #e7ebf0;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fcfdff 0%, #f8fbff 100%);
+  box-shadow: 0 8px 24px rgba(20, 48, 86, 0.08);
+  padding: 14px;
+}
+
+.chart-loading,
+.chart-error,
+.chart-empty {
+  padding: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.chart-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.summary-chip {
+  background: #eaf3ff;
+  border: 1px solid #cfe0fb;
+  border-radius: 999px;
+  color: #1d4f91;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.chart-canvas-wrap {
+  height: 360px;
+}
+
+@media (max-width: 768px) {
+  .audit-chart {
+    padding: 10px;
+  }
+
+  .chart-canvas-wrap {
+    height: 300px;
+  }
+}
