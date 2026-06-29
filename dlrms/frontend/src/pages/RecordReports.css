@@ -1,0 +1,110 @@
+/**
+ * Records Reports Styles
+ */
+
+.report-page .subtitle {
+  max-width: 760px;
+}
+
+.report-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.report-filters {
+  display: grid;
+  gap: 16px;
+}
+
+.report-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.report-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
+}
+
+.report-summary-card {
+  background: white;
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 4px solid transparent;
+}
+
+.report-summary-card span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.report-summary-card strong {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.report-summary-primary { border-left-color: var(--secondary-color); }
+.report-summary-success { border-left-color: var(--success-color); }
+.report-summary-warning { border-left-color: var(--warning-color); }
+.report-summary-danger { border-left-color: var(--danger-color); }
+.report-summary-info { border-left-color: #16a085; }
+.report-summary-muted { border-left-color: #95a5a6; }
+
+.report-breakdown-list {
+  display: grid;
+  gap: 10px;
+}
+
+.report-breakdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #f9fbfd;
+  border-radius: 6px;
+}
+
+.report-breakdown-row span {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.report-breakdown-row strong {
+  color: var(--primary-color);
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.report-guard {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .report-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .report-actions {
+    justify-content: stretch;
+  }
+
+  .report-actions .btn,
+  .report-header .btn {
+    width: 100%;
+  }
+}

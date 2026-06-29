@@ -1,0 +1,50 @@
+/**
+ * Create Record Styles
+ */
+
+.record-form {
+  margin-top: 30px;
+}
+
+.form-section {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.form-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--light-color);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: flex-end;
+}
+
+.form-actions .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .form-section {
+    padding: 15px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .form-actions .btn {
+    width: 100%;
+  }
+}

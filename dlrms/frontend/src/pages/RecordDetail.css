@@ -1,0 +1,143 @@
+/**
+ * Record Detail Styles
+ */
+
+.record-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.record-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+  flex: 1;
+  min-width: 200px;
+}
+
+.record-admin-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.record-main,
+.record-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.info-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border-left: 3px solid var(--secondary-color);
+}
+
+.info-item label {
+  font-size: 12px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.info-item p {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#file-upload {
+  display: none;
+}
+
+.upload-section label {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.status-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-buttons button {
+  width: 100%;
+}
+
+.quick-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.info-line span {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.info-line strong {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .record-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .record-header {
+    flex-direction: column;
+  }
+
+  .record-header h1 {
+    width: 100%;
+  }
+
+  .record-admin-actions {
+    width: 100%;
+  }
+
+  .record-admin-actions .btn {
+    flex: 1;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
