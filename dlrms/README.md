@@ -1,10 +1,10 @@
 # Digital Land Records Management System (DLRMS)
 
-## 📋 Project Overview
+##  Project Overview
 
 The Digital Land Records Management System (DLRMS) is a comprehensive web-based platform designed to digitize, manage, and track land records for government ministries. The system replaces manual paper-based filing with instant electronic searching, real-time audit trails, and secure role-based access controls.
 
-### ✨ Key Features
+###  Key Features
 
 1. **Centralized Digital Storage** - Securely store and organize over 10,000 land records
 2. **Advanced Search & Filtering** - Find records instantly by reference number, title, or owner name
@@ -15,7 +15,7 @@ The Digital Land Records Management System (DLRMS) is a comprehensive web-based 
 7. **User-Friendly Interface** - Modern, responsive web interface accessible on any device
 8. **Secure Authentication** - JWT-based authentication with password hashing
 
-### 🎯 System Users
+###  System Users
 
 - **ADMIN**: System administrator with full system access
 - **MANAGER**: Department manager who can manage staff and records
@@ -24,7 +24,7 @@ The Digital Land Records Management System (DLRMS) is a comprehensive web-based 
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 dlrms/
@@ -93,7 +93,7 @@ dlrms/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 
@@ -178,7 +178,7 @@ Before starting, ensure you have installed:
 
 ---
 
-## 📚 Complete Documentation
+##  Complete Documentation
 
 For detailed information, refer to the documentation files:
 
@@ -189,7 +189,7 @@ For detailed information, refer to the documentation files:
 
 ---
 
-## 🔑 Key Features in Detail
+##  Key Features in Detail
 
 ### 1. User Authentication
 - Secure login with email and password
@@ -230,7 +230,7 @@ For detailed information, refer to the documentation files:
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 1. **Authentication**: JWT-based authentication with secure token expiry
 2. **Authorization**: Role-based access control on all endpoints
@@ -296,7 +296,7 @@ For detailed information, refer to the documentation files:
 
 ---
 
-## 🧪 Testing the System
+##  Testing the System
 
 ### Create Test Data
 
@@ -331,7 +331,7 @@ curl -X GET http://localhost:5000/api/v1/records/list \
 
 ---
 
-## 📞 Support & Troubleshooting
+##  Support & Troubleshooting
 
 ### Common Issues
 
@@ -353,7 +353,7 @@ curl -X GET http://localhost:5000/api/v1/records/list \
 
 ---
 
-## 📝 API Endpoints Summary
+##  API Endpoints Summary
 
 | Method | Endpoint | Description | Role Required |
 |--------|----------|-------------|----------------|
@@ -370,23 +370,13 @@ curl -X GET http://localhost:5000/api/v1/records/list \
 
 ---
 
-## 📄 License
 
-This project is developed for the Ministry of Lands and is confidential.
-
----
-
-## 👥 Development Team
+##  Development Team
 
 - System Design & Development
 - Digital Transformation Initiative
-- Ministry of Lands
 
----
 
-## 📞 Contact
-
-For support or questions, contact the Ministry of Lands IT Department.
 
 **Version**: 1.0.0  
 **Last Updated**: March 2026
